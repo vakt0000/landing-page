@@ -113,6 +113,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-items: center;
   padding: 40px;
   gap: 40px;
   margin-bottom: 60px;
@@ -181,11 +182,13 @@ button {
   padding: 60px 120px;
   border-radius:10px;
   gap: 30px;
+  flex-shrink: 0;
+  min-width: 200px
 }
 
 .call-to-action {
   width: 300px;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .contact-title {
@@ -199,4 +202,14 @@ button {
 
 .container-4 .button {
   border-color: white;
+  width: 200px;
+}
+
+/* footer */
+.footer {
+  background-color: #1F2937;
+  text-align: center;
+  padding: 40px;
+  color: #F9FAF8;
+  font-size: 24px;
 }
