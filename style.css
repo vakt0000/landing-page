@@ -1,9 +1,12 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   display: flex;
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
 }
 
 /* Header and Hero sections */
@@ -91,10 +94,12 @@ li {
 
 button {
   background-color: #3882F6;
-  border: none;
+  border-style: solid;
   border-radius: 14px;
+  border-color: #3882F6;
+  border-width: 3px;
   color: white;
-  padding: 4px 30px;
+  padding: 4px 50px;
   font-size: 24px;
 }
 
@@ -102,7 +107,7 @@ button {
   flex-shrink: 0;
 }
 
-/* Container-2 sections */
+/* 4 pictures - container-2 section */
 
 .container-2 {
   display: flex;
@@ -141,7 +146,7 @@ button {
   height: auto;
 }
 
-/* Container 3 section */
+/* Quote - container-3 section */
 
 .container-3 {
   background-color: #E5E7EB;
@@ -162,4 +167,36 @@ button {
   font-size: 20px;
   margin-left: auto;
   margin-right: 40px;
+}
+
+/* Sign up - bottom */
+.container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882F6;
+  color: white;
+  margin: 100px 300px;
+  padding: 60px 120px;
+  border-radius:10px;
+  gap: 30px;
+}
+
+.call-to-action {
+  width: 300px;
+  flex: 1;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.contact-text {
+  font-size: 20px;
+}
+
+.container-4 .button {
+  border-color: white;
 }
