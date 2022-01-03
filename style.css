@@ -108,10 +108,37 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 40px;
+  gap: 40px;
   margin-bottom: 60px;
 }
 
 .blocks-information {
   display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+  gap: 40px;
+}
+
+.title-2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.item{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #1A2844;
+  width: 200px;
+  text-align: center;
+}
+
+.blocks-information img {
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #0045A1;
+  width: 200px;
+  height: auto;
 }
